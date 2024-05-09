@@ -35,6 +35,10 @@ p {
 }
 
 
+.company-video {
+  border: 1px solid black;
+}
+
 
 
 
@@ -457,7 +461,7 @@ h6 {
 #hero {
   width: 100%;
   height: calc(100vh - 110px);
-  background: url("../img/modern.jpg") top center;
+  background: url("../img/BG.gif") top center;
   background-size: cover;
   position: relative;
 }
@@ -776,7 +780,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/BG4.gif") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
