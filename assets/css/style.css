@@ -203,14 +203,14 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(25, 25, 25, 0.95);
+  background: #F8F8F8;
   transition: all 0.5s;
   z-index: 997;
   height: 70px;
 }
 
 #header.fixed-top {
-  background: #191919;
+  background: #F8F8F8;
 }
 
 #header .logo {
@@ -224,7 +224,8 @@ h6 {
 }
 
 #header .logo a {
-  color: #fff;
+  color: black;
+  font-weight: bolder;
 }
 
 #header .logo img {
@@ -268,9 +269,10 @@ h6 {
   justify-content: space-between;
   padding: 25px 15px 24px 15px;
   font-size: 14px;
-  color: #fff;
+  color: black;
   white-space: nowrap;
   transition: 0.3s;
+  font-weight: bold;
 }
 
 .navbar a i,
@@ -308,7 +310,7 @@ h6 {
 
 .navbar .dropdown ul a {
   padding: 10px 20px;
-  color: #191919;
+  color: #fff;
 }
 
 .navbar .dropdown ul a i {
@@ -383,7 +385,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: #fff;
   transition: 0.3s;
   z-index: 999;
 }
@@ -411,7 +413,7 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #191919;
+  color: #fff;
 }
 
 .navbar-mobile a:hover,
